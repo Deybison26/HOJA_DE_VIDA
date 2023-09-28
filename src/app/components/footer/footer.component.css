@@ -1,0 +1,23 @@
+footer{
+  background-color: #24262b;
+  padding: 1rem 0;
+  position: absolute;
+  width: 100%;
+  height: 140px;
+  bottom: 0;
+}
+.footer-row{
+  display: flex;
+}
+
+.social-link a{
+  display: block;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 60px;
+  color: #747171;
+}
+.icono{
+  font-size: 30px;
+  color:  #747171;
+}

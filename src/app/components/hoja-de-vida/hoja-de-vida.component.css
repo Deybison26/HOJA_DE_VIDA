@@ -1,0 +1,82 @@
+
+
+.hoja{
+  margin-right: auto;
+}
+.col-derecha{
+  background-color:#f8f3f3;
+  margin-right: 0;
+  margin-top:20px;
+  margin-bottom: 20px;
+
+}
+
+.imagen{
+  width: 50rem;
+  height: 9cm;
+
+}
+.estudiante{
+  color: #747272;
+}
+
+h6 { color:#747272}
+span { color: rgb(230, 14, 14) }
+
+.iconodos{
+
+
+background: #1852c7;
+ color: #ffffff;
+ font-size: 20px;
+ padding: 5px;
+ width: 30px;
+ height: 30px;
+ text-align: center;
+ line-height: 20px;
+ border-radius: 40%;
+}
+
+.iconotres{
+  background: #5bc1e6;
+ color: #ffffff;
+ font-size: 20px;
+ padding: 5px;
+ width: 30px;
+ height: 30px;
+ text-align: center;
+ line-height: 20px;
+ border-radius: 50%;
+}
+.iconocuatro{
+  background: #e2408e;
+ color: #ffffff;
+ font-size: 20px;
+ padding: 5px;
+ width: 30px;
+ height: 30px;
+ text-align: center;
+ line-height: 20px;
+ border-radius: 50%;
+}
+.iconocinco{
+  background: #b10707;
+ color: #ffffff;
+ font-size: 20px;
+ padding: 5px;
+ width: 30px;
+ height: 30px;
+ text-align: center;
+ line-height: 20px;
+ border-radius: 50%;
+}
+a{
+  width: 3px;
+  padding: 0 12px;
+}
+.parrafo{
+  text-align: justify;
+}
+
+
+
