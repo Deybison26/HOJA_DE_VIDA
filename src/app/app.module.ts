@@ -33,6 +33,6 @@ import { HojaDeVidaComponent } from './components/hoja-de-vida/hoja-de-vida.comp
     APP_ROUTES
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent,CaruselComponent]
 })
 export class AppModule { }
