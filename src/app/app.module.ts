@@ -14,7 +14,8 @@ import { APP_ROUTES } from './app.routes';
 import { HojaDeVidaComponent } from './components/hoja-de-vida/hoja-de-vida.component';
 
 //SERVICIOS
-
+import { HeroesService } from './services/heroes.service';
+import { HeroesComponent } from './components/heroes/heroes.component';
 
 //BASE DE DATOS
 @NgModule({
@@ -25,14 +26,17 @@ import { HojaDeVidaComponent } from './components/hoja-de-vida/hoja-de-vida.comp
     AvengersComponent,
     CaruselComponent,
     HomeComponent,
-    HojaDeVidaComponent
+    HojaDeVidaComponent,
+    HeroesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     APP_ROUTES
   ],
-  providers: [],
+  providers: [
+    HeroesService
+  ],
   bootstrap: [AppComponent,CaruselComponent]
 })
 export class AppModule { }

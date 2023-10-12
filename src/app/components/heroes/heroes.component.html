@@ -1,0 +1,27 @@
+<div class="row row-cols-1 row-cols-md-3">
+    <div class="col mb-4" *ngFor="let heroe of heroes">
+        <div class="card h-100">
+            <img class="card-img-top img-fluid" [src]="heroe.img" [alt]="heroe.nombre">
+            <div class="card-body">
+                <h5 class="card-title">{{heroe.nombre}}</h5>
+                <p class="card-text">{{heroe.bio}}</p>
+                <p class="card-text"><small class="text-muted">{{heroe.aparicion}}</small></p>
+            </div>
+            <button type="button" class="btn btn-outline-primary btn-bloock">ver mas</button>
+        </div>
+    </div>
+</div>
+
+<div>
+    <p>Nombre del Empleado:{{nombre}}</p>
+    <p>Edad:{{edad}}</p>  
+    <p *ngIf="edad>=18">Es mayor de edad.</p>
+    <table border="1">
+      <tr>
+        <td>Sueldos</td>
+      </tr>
+      <tr *ngFor="let sueldo of sueldos">
+        <td>{{sueldo}}</td>
+      </tr>
+    </table>
+  </div>
